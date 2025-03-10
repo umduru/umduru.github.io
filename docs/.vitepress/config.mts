@@ -23,7 +23,7 @@ export default defineConfig({
 
     socialLinks: [
       //из https://simpleicons.org/
-      { icon: 'telegram', link: 'https://t.me/dusikasss' }
+      { icon: 'telegram', link: 'https://t.me/homeassistant_russia' }
     ]
   }
 })
