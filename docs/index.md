@@ -11,7 +11,7 @@ hero:
       link: /quick-start
     - theme: alt
       text: Все документы
-      link: /usb-disk-docs
+      link: /system-image-installation
 
 features:
   - title: База знаний Home Assistant

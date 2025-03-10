@@ -1,0 +1,4 @@
+/* Инвертирование цвета логотипа для темной темы */
+.dark .VPNavBarTitle .logo {
+  filter: invert(1);
+}
