@@ -1,12 +1,65 @@
 # Быстрый старт
 
+<style>
+  .flex-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    flex-shrink: 0;
+  }
+  
+  .content-container {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .step-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .ha-image-container {
+    width: 300px;
+    max-width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  
+  .ha-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  @media (max-width: 640px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    
+    .image-container, .content-container {
+      width: 100%;
+    }
+    
+    .ha-image-container {
+      width: 100%;
+      height: 350px;
+    }
+  }
+</style>
+
 ## Понадобится
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex-shrink: 0;">
-    <img src="https://docs.umdu.ru/wp-content/uploads/2024/04/set.gif" alt="Необходимое оборудование">
+<div class="flex-container">
+  <div class="image-container">
+    <img class="step-image" src="https://docs.umdu.ru/wp-content/uploads/2024/04/set.gif" alt="Необходимое оборудование">
   </div>
-  <div>
+  <div class="content-container">
     <ul>
       <li>UMDU K1</li>
       <li>Блок питания</li>
@@ -19,11 +72,11 @@
 
 ## Шаг 1 - Интернет
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex-shrink: 0;">
-    <img src="https://docs.umdu.ru/wp-content/uploads/2024/04/step1.gif" alt="Шаг 1">
+<div class="flex-container">
+  <div class="image-container">
+    <img class="step-image" src="https://docs.umdu.ru/wp-content/uploads/2024/04/step1.gif" alt="Шаг 1">
   </div>
-  <div>
+  <div class="content-container">
     <ul>
       <li>Подключите кабель Ethernet и убедитесь, что он зафиксирован на месте.</li>
       <li>Подключите другой конец кабеля Ethernet к маршрутизатору или коммутатору.</li>
@@ -33,11 +86,11 @@
 
 ## Шаг 2 - Питание
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex-shrink: 0;">
-    <img src="https://docs.umdu.ru/wp-content/uploads/2024/04/step2.gif" alt="Шаг 2">
+<div class="flex-container">
+  <div class="image-container">
+    <img class="step-image" src="https://docs.umdu.ru/wp-content/uploads/2024/04/step2.gif" alt="Шаг 2">
   </div>
-  <div>
+  <div class="content-container">
     <ul>
       <li>Подключите кабель питания</li>
     </ul>
@@ -46,11 +99,11 @@
 
 ## Шаг 3 - Home Assistant
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex-shrink: 0; width: 300px; height: 350px; overflow: hidden;">
-    <img src="https://docs.umdu.ru/wp-content/uploads/2024/04/HA.webp" alt="Шаг 3" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+<div class="flex-container">
+  <div class="ha-image-container">
+    <img class="ha-image" src="https://docs.umdu.ru/wp-content/uploads/2024/04/HA.webp" alt="Шаг 3">
   </div>
-  <div>
+  <div class="content-container">
     <ul>
       <li>Установите <strong>приложение.</strong>  
           Чтобы получить доступ к Home Assistant со своего мобильного устройства. Загрузить приложение можно в магазине приложений или по <a href="https://companion.home-assistant.io/">ссылке</a>.</li>
