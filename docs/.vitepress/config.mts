@@ -14,6 +14,7 @@ export default defineConfig({
       {
         text: 'umdu k1',
         items: [
+          { text: 'Быстрый старт', link: '/quick-start' },
           { text: 'Инструкция по запуску системы с внешнего  USB диска', link: '/usb-disk-docs' }
         ]
       }
