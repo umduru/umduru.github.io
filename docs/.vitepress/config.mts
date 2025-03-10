@@ -4,11 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "docs",
   description: "Документация umdu",
+  // Изображения можно хранить в public/images и обращаться к ним через /images/имя_файла.расширение
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
-      light: 'https://docs.umdu.ru/logo.png',
-      dark: 'https://docs.umdu.ru/logo.png',
+      light: 'https://umdu.ru/logo.png',
+      dark: 'https://umdu.ru/logo.png',
       alt: 'UMDU Logo'
     },
     nav: [

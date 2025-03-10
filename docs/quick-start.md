@@ -57,7 +57,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="https://docs.umdu.ru/wp-content/uploads/2024/04/set.gif" alt="Необходимое оборудование">
+    <img class="step-image" src="/images/set.gif" alt="Необходимое оборудование">
   </div>
   <div class="content-container">
     <ul>
@@ -74,7 +74,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="https://docs.umdu.ru/wp-content/uploads/2024/04/step1.gif" alt="Шаг 1">
+    <img class="step-image" src="/images/step1.gif" alt="Шаг 1">
   </div>
   <div class="content-container">
     <ul>
@@ -88,7 +88,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="https://docs.umdu.ru/wp-content/uploads/2024/04/step2.gif" alt="Шаг 2">
+    <img class="step-image" src="/images/step2.gif" alt="Шаг 2">
   </div>
   <div class="content-container">
     <ul>
@@ -101,7 +101,7 @@
 
 <div class="flex-container">
   <div class="ha-image-container">
-    <img class="ha-image" src="https://docs.umdu.ru/wp-content/uploads/2024/04/HA.webp" alt="Шаг 3">
+    <img class="ha-image" src="/images/HA.webp" alt="Шаг 3">
   </div>
   <div class="content-container">
     <ul>
