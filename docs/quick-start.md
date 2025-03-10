@@ -65,7 +65,7 @@
 </div>
 
 ::: tip Логин
- Для входа в Home Assistant используйте логин: **umdu**, пароль: **umdu**
+ Для входа в Home Assistant используйте логин: `umdu`, пароль: `umdu`
 :::
 
 ::: warning Внимание

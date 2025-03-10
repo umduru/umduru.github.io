@@ -2,12 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Документация",
+  title: "umdu docs",
   description: "Документация umdu",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'docs', link: '/' },
+      { text: 'Быстрый старт', link: '/quick-start' },
     ],
 
     sidebar: [
@@ -15,6 +15,7 @@ export default defineConfig({
         text: 'umdu k1',
         items: [
           { text: 'Быстрый старт', link: '/quick-start' },
+          { text: 'Установка образа системы', link: '/system-image-installation' },
           { text: 'Инструкция по запуску системы с внешнего  USB диска', link: '/usb-disk-docs' }
         ]
       }
