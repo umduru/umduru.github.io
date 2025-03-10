@@ -8,8 +8,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
-      light: 'https://umdu.ru/logo.png',
-      dark: 'https://umdu.ru/logo.png',
+      light: '/images/logo.png',
+      dark: '/images/logo.png',
       alt: 'UMDU Logo'
     },
     nav: [
