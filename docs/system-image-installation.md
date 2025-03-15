@@ -5,7 +5,7 @@
 - Сервер UMDU K1
 - Карта памяти microSD
 - Адаптер карты памяти
-- Образ ОС c Home Assistant, поставляемый в комплекте – [скачать](https://docs.umdu.ru/umdu_k1.img.gz)
+- Образ ОС c Home Assistant, поставляемый в комплекте – [скачать](https://umdu.ru/umdu_k1.img.gz)
 - ПО balenaEtcher для создания загрузочного диска – [скачать](https://www.balena.io/etcher)
 - ПО putty для подключения по ssh – [скачать](https://www.putty.org/)
 
