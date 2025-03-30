@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: 'umdu k1', link: '/quick-start' },
       { text: 'umdu aux', link: '/quick-start-aux' },
+      { text: 'umdu.ru', link: 'https://umdu.ru' }
     ],
 
     sidebar: [
