@@ -4,14 +4,18 @@ layout: home
 hero:
   name: "umdu docs"
   #text: "Документация umdu"
-  tagline: Инструкции для umdu k1
+  tagline: Документация по настройке и использованию устройств umdu k1 и umdu aux
   actions:
     - theme: brand
-      text: Быстрый старт
+      text: Быстрый старт umdu k1
       link: /quick-start
+    - theme: brand
+      text: Быстрый старт umdu aux
+      link: /quick-start-aux
     - theme: alt
       text: Все документы
       link: /system-image-installation
+
 
 features:
   - title: База знаний Home Assistant

@@ -13,22 +13,45 @@ export default defineConfig({
       alt: 'UMDU Logo'
     },
     nav: [
-      { text: 'Быстрый старт', link: '/quick-start' },
-      { text: 'umdu k1', link: 'https://umdu.ru' },
+      { text: 'umdu k1', link: '/quick-start' },
+      { text: 'umdu aux', link: '/quick-start-aux' },
     ],
 
     sidebar: [
       {
-        text: 'Начало работы',
+        text: 'umdu k1',
         items: [
-          { text: 'Быстрый старт', link: '/quick-start' }
+          {
+            text: 'Начало работы',
+            items: [
+              { text: 'Быстрый старт', link: '/quick-start' }
+            ]
+          },
+          {
+            text: 'Инструкции',
+            items: [
+              { text: 'Установка образа системы', link: '/system-image-installation' },
+              { text: 'Запуск с внешнего USB диска', link: '/usb-disk-docs' }
+            ]
+          }
         ]
       },
       {
-        text: 'Инструкции',
+        text: 'umdu aux',
         items: [
-          { text: 'Установка образа системы', link: '/system-image-installation' },
-          { text: 'Запуск с внешнего USB диска', link: '/usb-disk-docs' }
+          {
+            text: 'Начало работы',
+            items: [
+              { text: 'Быстрый старт', link: '/quick-start-aux' }
+            ]
+          },
+          {
+            text: 'Инструкции',
+            items: [
+              { text: 'Варианты подключений umdu aux к кондиционеру', link: '/connect-to-air-conditioner' },
+
+            ]
+          }
         ]
       }
     ],
