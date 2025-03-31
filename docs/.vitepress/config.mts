@@ -43,7 +43,8 @@ export default defineConfig({
           {
             text: 'Начало работы',
             items: [
-              { text: 'Быстрый старт', link: '/quick-start-aux' }
+              { text: 'Быстрый старт', link: '/quick-start-aux' },
+              { text: 'Список поддерживаемых кондиционеров', link: '/models-aux' }
             ]
           },
           {
