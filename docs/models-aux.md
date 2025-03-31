@@ -1,3 +1,45 @@
-::: tip Информация 
-Раздел в разработке
+# Поддерживаемые модели кондиционеров
+
+Следующие модели кондиционеров поддерживают работу с модулем umdu aux:
+
+| Бренд | Модели |
+|-------|---------|
+| ANDE | AND-12/FA+ |
+| Argo | Greenstyle 9000, Greenstyle 12000, Greenstyle 18000 |
+| AUX | ALMD-H48/5DR2 / AL-H48/5DR2(U), AMWM-H07/4R1 multisplit, AMWM-H07/4R2(J) multisplit, AMWM-H12/4R2(J) multisplit, AMWM-H12/4R3 multisplit, ASM-H12LL, ASM-H24LD, ASW-H07A4/DE-R1DI, ASW-H07A4/FP-R1DI, ASW-H07A4/JD-R1, ASW-H09A4/FP-R1DI, ASW-H09A4/LK-700R1, ASW-H09A4/LK-700R1DI, ASW-H09B4/LK-700R1, ASW-H09B7A4, ASW-H12A4/FAR1, ASW-H12A4/HA-R2DI, ASW-H12A4/JD-R2DI, ASW-H12B4/JD-R2DI, ASW-H12C5C4/JER3DI-B8-2, ASW-H12C5C4/JOR3DI-B8, ASW-H12U3/JIR1DI-US, ASW-H18A4/QH-R1DI / AS-H18A4/QH-R1DI, AUX-07JO/I / AUX-M3-21LCLH multisplit, AUX-12JO/I / AUX-M3-21LCLHmultisplit, AUX-18QC/I / AUX-18QC/O, AWM-09G1V4-X, HA-18000BTU, KFR-26GW/BpHRB+3, KFR-26GW/BpQYA2+2R3, KFR-26GW/BpQYD2+2R3, KFR-26GW/BpR3QYA1+1, KFR-26GW/BpR3QYD1+1, KFR-26GW/BpR3QYQ1+1, KFR-26GW/BpR3QYQ2+2, KFR-35GW/BpQYA1+1R3, KFR-35GW/BpQYA2+2R3, KFR-35GW/BpQYD1+1R3, KFR-35GW/BpQYD2+2R3, KFR-35GW/BpR3QYQ1+1, KFR-35GW/BpR3QYQ2+2 |
+| Ballu | BLC_CF/in-60HN1 / BLC_O/out-60HN1, BSUI/in-09HN8 / BSUI/out-09HN8, BSUI/in-12HN8 / BSUI/out-12HN8, BSUI/in-18HN8 / BSUI/out-18HN8, BSW/in-09HN1 / BSW/out-09HN1, BSW/in-12HN1 / BSW/out-12HN1 |
+| Baymak | Elegant Plus 12 |
+| Centek | CT-65A09, CT-65A12, CT-65EDC07, CT-65F09, CT-65F12, CT-65FDC09, CT-65J09, CT-65J12, CT-65K07, CT-65Q09, CT-65Q12, CT-65RDC07, CT-65RDC09, CT-65RDC12, CT-65SDC07, CT-65SDC09, CT-65SDC18, CT-65U13, CT-65U18, CT-65V12, CT-65V24, CT-65X12, CT-65Z10, CT-65Z18 |
+| Dimstal | SMND-QC-12-J-Smart ECO |
+| Elgin | HWFI09B2IA/ HWFE09B2NA |
+| Energolux | SAS07L2-A, SAS07L4-A, SAS07M2-AI, SAS09B3-A, SAS09L4-A, SAS09Z4-AI, SAS12BN1-AI, SAS09Z4-AI, SAS18Z4-AI |
+| Hyundai | H-AR16-07H, H-AR21-07H, H-AR21-09H |
+| iClima | ICI-09A/IUI-09A |
+| Idea | ISR-12HR-SA7-DN1 ION |
+| IGC | RAK-07NH multysplit, RAS-07AX/RAC-07AX, RAS-V09N2X/RAC-V09N2X |
+| IKON | ASW-H12C5C4/HCR3DI-B8 |
+| Ishimatsu | AVK-09I |
+| Loriot | LAC-09AS |
+| Mirage | EWC121E - CWC121E |
+| Osaka | STVP-12HH3 |
+| RCool | GRA12B0-KSZKLM641 |
+| Rinnai | RINV25RC |
+| Roda | RS-AL09F, RS-AL24F |
+| Rovex | RS-07ALS1, RS-09ALS1, RS-12ALS1 |
+| Royal Clima | CO-D 18HNI/CO-E 18HNI, RC-VNR29HN, RCI-SA30HN |
+| RVX | RS-12ALS |
+| Samurai | SMA-07HRN1 ION, SMA-09HRN1 ION |
+| Subtropic | SUB/in-07HN1 / SUB/out-07HN1, SUB/in-09HN1 / SUB/out-09HN1, SUB/in-12HN1 / SUB/out-12HN1 |
+| Tesla | TA35FFML-12410M |
+| Tornado | ISKA-INV-12 X WIFI EU |
+| TOYOTOMI | SONZAI THN/THG-A35SZ |
+| Vertex | Falcon-18A |
+| VOX | IJO09-SC4D, IVA5-12JR1 |
+| Xigma | XG-SJ56RHA-IDU |
+| Zephir | ZEL 12000BTU |
+| Бирюса | B-07DPR/B-07DPQ, B-09FIR/B-09FIQ |
+
+::: tip Примечание
+Если вашей модели нет в списке, это не означает, что она не поддерживается. Многие кондиционеры используют одинаковые протоколы связи, поэтому модуль может работать и с другими моделями.
 :::
+

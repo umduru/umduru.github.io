@@ -71,7 +71,7 @@
   <div class="content-container">
     <ul>
       <li>umdu aux</li>
-      <li>Кондиционер с поддержкой WiFi</li>
+      <li>Кондиционер с поддержкой внешнего WiFi модуля (<a href="models-aux">список поддерживаемых моделей</a>)</li>
       <li>Смартфон или планшет</li>
       <li>WiFi роутер</li>
     </ul>
@@ -112,10 +112,10 @@
   </div>
   <div class="content-container">
     <ul>
-      <li>Подключитесь к WiFi сети umdu aux</li>
+      <li>Подключитесь к WiFi точки доступа umdu aux</li>
       <li>Откройте браузер и перейдите по адресу <a href="http://umduaux.local">umduaux.local</a></li>
       <li>Введите данные вашей WiFi сети</li>
-      <li>Дождитесь успешного подключения (в Home Assistant появится устройство esphome)</li>
+      <li>Дождитесь успешного подключения (устройство подключится к вашей WiFi сети)</li>
     </ul>
   </div>
 </div>
