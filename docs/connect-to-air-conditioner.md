@@ -8,6 +8,7 @@
 - **RX**: вход UART
 - **TX**: выход UART
 
+<img class="pin-image" src="/images/pin.jpg" alt="Распиновка контактов">
 
 
 ::: tip Примечание
