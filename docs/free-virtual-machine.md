@@ -29,4 +29,4 @@
 
 
 
-<iframe src="https://terminator.aeza.net"></iframe> 
+<iframe src="https://terminator.aeza.net" allowfullscreen></iframe> 
