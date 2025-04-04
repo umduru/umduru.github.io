@@ -82,11 +82,26 @@
 
 <div class="flex-container">
   <div class="image-container">
+    <img class="step-image" src="/images/aux-switch.png" alt="Переключатель режима">
+  </div>
+  <div class="content-container">
+    <ul>
+      <li>Перед подключением модуля к кондиционеру убедитесь, что переключатель переведен в положение AUX</li>
+    </ul>
+  </div>
+</div>
+
+::: tip Переключатель
+Предназначен для переключения режима модуля из сервисного режима USB в режим UART для обеспечения связи с кондиционером.
+:::
+
+<div class="flex-container">
+  <div class="image-container">
     <img class="step-image" src="/images/conditioner.jpg" alt="Шаг 1">
   </div>
   <div class="content-container">
     <ul>
-      <li>Выберите подходящий способ подключения:
+      <li>Подключите umdu aux к кондиционеру согласно выбранному способу:
         <ul>
           <li><strong>4-проводное подключение (псевдо-USB):</strong> Используется USB-коннектор (только форма разъема, не USB протокол)
             <ul>
@@ -98,11 +113,14 @@
           </li>
         </ul>
       </li>
-      <li>Подключите umdu aux к кондиционеру согласно выбранному способу</li>
       <li>Дождитесь инициализации модуля (пару минут)</li>
     </ul>
   </div>
 </div>
+
+::: warning Внимание
+Инициализация модуля и загрузка веб сервера может занимать до 5 минут.
+:::
 
 ## Шаг 2 - Настройка WiFi
 
