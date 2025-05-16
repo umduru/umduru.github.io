@@ -33,7 +33,8 @@ export default defineConfig({
             text: 'Инструкции',
             items: [
               { text: 'Установка образа системы', link: '/system-image-installation' },
-              { text: 'Запуск с внешнего USB диска', link: '/usb-disk-docs' }
+              { text: 'Запуск с внешнего USB диска', link: '/usb-disk-docs' },
+              { text: 'Установка HACS', link: '/hacs-installation' }
             ]
           }
         ]
