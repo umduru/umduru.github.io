@@ -14,7 +14,7 @@ hero:
       link: /quick-start-aux
     - theme: alt
       text: Все документы
-      link: /system-image-installation
+      link: /all-documents
 
 
 features:

@@ -26,15 +26,22 @@ export default defineConfig({
           {
             text: 'Начало работы',
             items: [
-              { text: 'Быстрый старт', link: '/quick-start' }
+              { text: 'Быстрый старт', link: '/quick-start' },
+              { text: 'Установка HACS', link: '/hacs-installation' }
             ]
           },
           {
-            text: 'Инструкции',
+            text: 'HAOS (Home Assistant OS)',
+            items: [
+              { text: 'Переход на HAOS', link: '/haos-migration' },
+              { text: 'Запуск с внешнего USB диска', link: '/haos-usb-disk' }
+            ]
+          },
+          {
+            text: 'HA Supervised',
             items: [
               { text: 'Установка образа системы', link: '/system-image-installation' },
-              { text: 'Запуск с внешнего USB диска', link: '/usb-disk-docs' },
-              { text: 'Установка HACS', link: '/hacs-installation' }
+              { text: 'Запуск с внешнего USB диска', link: '/usb-disk-docs' }
             ]
           }
         ]
