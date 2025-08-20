@@ -176,5 +176,5 @@
 
 ## Дополнительно - Home Assistant
 
-- Для получения дополнительной информации используте базу знаний [Home Assistant](https://www.home-assistant.io/getting-started/).
+- Для получения дополнительной информации используйте базу знаний [Home Assistant](https://www.home-assistant.io/getting-started/).
 - Посетите [Home Assistant Russia](https://t.me/homeassistant_russia) в Telegram

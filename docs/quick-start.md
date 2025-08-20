@@ -107,7 +107,7 @@
     <ul>
       <li>Установите <strong>приложение.</strong>  
           Чтобы получить доступ к Home Assistant со своего мобильного устройства. Загрузить приложение можно в магазине приложений или по <a href="https://companion.home-assistant.io/">ссылке</a>.</li>
-      <li><strong>Выберете сервер Home Assistant:</strong>
+      <li><strong>Выберите сервер Home Assistant:</strong>
         <ul>
           <li>Мобильное приложение: подтвердите IP-адрес, обнаруженный приложением. Или введите имя хоста – <a href="http://umdu.local:8123">umdu.local:8123</a></li>
           <li>Браузер: посетите <a href="http://umdu.local:8123">umdu.local:8123</a>, чтобы получить доступ к пользовательскому интерфейсу Home Assistant.</li>
@@ -128,5 +128,5 @@
 
 ## Дополнительно - Home Assistant
 
-- Для получения дополнительной информации используте базу знаний [Home Assistant](https://www.home-assistant.io/getting-started/).
+- Для получения дополнительной информации используйте базу знаний [Home Assistant](https://www.home-assistant.io/getting-started/).
 - Посетите [Home Assistant Russia](https://t.me/homeassistant_russia) в Telegram
