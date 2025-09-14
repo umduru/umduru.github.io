@@ -1,57 +1,6 @@
 # Быстрый старт umdu k1
 
-<style>
-  .flex-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .image-container {
-    flex-shrink: 0;
-  }
-  
-  .content-container {
-    flex: 1;
-    min-width: 250px;
-  }
-  
-  .step-image {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .ha-image-container {
-    width: 300px;
-    max-width: 100%;
-    height: 350px;
-    overflow: hidden;
-    margin-bottom: 15px;
-  }
-  
-  .ha-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  
-  @media (max-width: 640px) {
-    .flex-container {
-      flex-direction: column;
-    }
-    
-    .image-container, .content-container {
-      width: 100%;
-    }
-    
-    .ha-image-container {
-      width: 100%;
-      height: 350px;
-    }
-  }
-</style>
+<div class="page-quick-start">
 
 ## Понадобится
 
@@ -61,7 +10,7 @@
   </div>
   <div class="content-container">
     <ul>
-      <li>UMDU K1</li>
+      <li>umdu k1</li>
       <li>Блок питания</li>
       <li>Ethernet кабель</li>
       <li>Веб браузер, планшет или телефон.</li>
@@ -130,3 +79,4 @@
 
 - Для получения дополнительной информации используйте базу знаний [Home Assistant](https://www.home-assistant.io/getting-started/).
 - Посетите [Home Assistant Russia](https://t.me/homeassistant_russia) в Telegram
+</div>

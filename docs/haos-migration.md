@@ -1,13 +1,4 @@
 # Переход на HAOS
-<style>
-img, .step-image, .ha-image, .umduaux-image {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
-</style>
 
 ## Введение
 
@@ -20,10 +11,10 @@ img, .step-image, .ha-image, .umduaux-image {
 
 ## Понадобится
 
-- Сервер UMDU K1
+- Сервер umdu k1
 - Карта памяти microSD
 - Адаптер карты памяти
-- Образ HAOS, поставляемый в комплекте – [скачать](#)
+- Образ HAOS – [скачать](https://github.com/umduru/umdu-haos-updater/releases/download/16.2/haos_umdu-k1-16.2.img.xz)
 - ПО balenaEtcher для создания загрузочного диска – [скачать](https://www.balena.io/etcher)
 
 ## Подготовка 
@@ -78,11 +69,15 @@ img, .step-image, .ha-image, .umduaux-image {
 <img class="image" src="/images/haos-backup-restore.png" alt="Восстановление резервной копии">
 
 
+::: warning Внимание
+Процесс восстановления из резервной копии может занять продолжительное время. Не перезагружайте устройство и дождитесь завершения операции.
+:::
+
 
 ## Система готова к использованию
 
 <img class="image" src="/images/haos-ready.png" alt="Система готова">
 
 ::: tip Примечание
-HAOS для umdu k1 поддерживает обновление через предустановленное дополнение (Add-on) [UMDU Home Assistant OS Updater](https://github.com/umduru/umdu-haos-updater)
+HAOS для umdu k1 поддерживает обновление через предустановленное дополнение (Add-on) [Umdu Home Assistant OS Updater](https://github.com/umduru/umdu-haos-updater)
 :::

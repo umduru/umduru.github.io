@@ -1,13 +1,4 @@
 # Установка HACS в Home Assistant
-<style>
-img, .step-image, .ha-image, .umduaux-image {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
-</style>
 Инструкция предназначена для пользователей umdu k1 и Home Assistant Supervised.
 
 ## Установка HACS

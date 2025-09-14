@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "docs",
   description: "Документация umdu",
+  cleanUrls: true,
   // Изображения можно хранить в public/images и обращаться к ним через /images/имя_файла.расширение
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -73,8 +74,9 @@ export default defineConfig({
     ]
   },
   
-  // Подключаем пользовательские CSS стили
+  // Подключаем favicon и пользовательские CSS стили
   head: [
+    ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png' }],
     ['link', { rel: 'stylesheet', href: '/custom.css' }]
   ]
 })

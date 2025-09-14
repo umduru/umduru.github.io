@@ -2,3 +2,140 @@
 .dark .VPNavBarTitle .logo {
   filter: invert(1);
 }
+
+/* Исправляем расстояние между логотипом и текстом в шапке
+   (перекрываем глобальные правила из страниц) */
+.VPNavBarTitle .logo {
+  width: auto;
+  max-width: none;
+}
+
+/* Глобальные утилиты для вёрстки шагов */
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  flex-shrink: 0;
+}
+
+.content-container {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Базовый стиль одиночных картинок в статьях */
+.image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Страница: Быстрый старт umdu k1 */
+.page-quick-start .step-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-quick-start .ha-image-container {
+  width: 300px;
+  max-width: 100%;
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.page-quick-start .ha-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 640px) {
+  .page-quick-start .flex-container {
+    flex-direction: column;
+  }
+
+  .page-quick-start .image-container,
+  .page-quick-start .content-container {
+    width: 100%;
+  }
+
+  .page-quick-start .ha-image-container {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+/* Страница: Быстрый старт umdu aux */
+.page-quick-start-aux .step-image {
+  width: 300px;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.page-quick-start-aux .ha-image-container {
+  width: 482px;
+  max-width: 100%;
+  height: 224px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.page-quick-start-aux .ha-image {
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.page-quick-start-aux .umduaux-image {
+  width: 300px;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 640px) {
+  .page-quick-start-aux .flex-container {
+    flex-direction: column;
+  }
+
+  .page-quick-start-aux .image-container,
+  .page-quick-start-aux .content-container {
+    width: 100%;
+  }
+
+  .page-quick-start-aux .umduaux-image {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+/* Страница: Бесплатная виртуальная машина */
+.page-free-vm iframe {
+  width: 100%;
+  height: 800px;
+  margin: 20px 0;
+}
+
+.page-free-vm .referral-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: hsla(0, 0%, 100%, 0.20);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.page-free-vm .referral-button:hover {
+  background-color: rgb(124, 210, 247);
+}

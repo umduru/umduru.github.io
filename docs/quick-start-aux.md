@@ -1,66 +1,6 @@
 # Быстрый старт umdu aux
 
-<style>
-  .flex-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .image-container {
-    flex-shrink: 0;
-  }
-  
-  .content-container {
-    flex: 1;
-    min-width: 250px;
-  }
-  
-  .step-image {
-    width: 300px;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center;
-  }
-  
-  .ha-image-container {
-    width: 482px;
-    max-width: 100%;
-    height: 224px;
-    overflow: hidden;
-    margin-bottom: 15px;
-  }
-  
-  .ha-image {
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center;
-  }
-
-  .umduaux-image {
-    width: 300px;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center;
-  }
-  
-  @media (max-width: 640px) {
-    .flex-container {
-      flex-direction: column;
-    }
-    
-    .image-container, .content-container {
-      width: 100%;
-    }
-    
-
-    .umduaux-image {
-      width: 100%;
-      height: 350px;
-    }
-  }
-</style>
+<div class="page-quick-start-aux">
 
 ## Понадобится
 
@@ -178,3 +118,4 @@
 
 - Для получения дополнительной информации используйте базу знаний [Home Assistant](https://www.home-assistant.io/getting-started/).
 - Посетите [Home Assistant Russia](https://t.me/homeassistant_russia) в Telegram
+</div>

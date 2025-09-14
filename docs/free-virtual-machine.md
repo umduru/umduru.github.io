@@ -5,28 +5,10 @@
 
 # Бесплатная виртуальная машина
 
-<style>
-  iframe {
-    width: 100%;
-    height: 800px;
-    #border: none;
-    margin: 20px 0;
-  }
-  .referral-button {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color:hsla(0, 0.00%, 100.00%, 0.20);
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    margin: 20px 0;
-  }
-  .referral-button:hover {
-    background-color:rgb(124, 210, 247);
-  }
-</style>
+<div class="page-free-vm">
 
 
 
-<iframe src="https://terminator.aeza.net" allowfullscreen></iframe> 
+<iframe src="https://terminator.aeza.net" allowfullscreen></iframe>
+
+</div>
