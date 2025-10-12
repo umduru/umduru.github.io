@@ -4,14 +4,14 @@ layout: home
 hero:
   name: "umdu docs"
   #text: "Документация umdu"
-  tagline: Документация по настройке и использованию устройств umdu k1 и umdu aux
+  tagline: Документация по настройке и использованию устройств umdu k1 и umdu ac
   actions:
     - theme: brand
       text: Быстрый старт umdu k1
       link: /quick-start
     - theme: brand
-      text: Быстрый старт umdu aux
-      link: /quick-start-aux
+      text: Быстрый старт umdu ac
+      link: /quick-start-ac
     - theme: alt
       text: Все документы
       link: /all-documents
@@ -28,4 +28,3 @@ features:
     details: Получите помощь при возникновении вопросов по использованию системы umdu.
     link: https://t.me/dusikasss
 ---
-

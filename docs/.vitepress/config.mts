@@ -15,7 +15,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'umdu k1', link: '/quick-start' },
-      { text: 'umdu aux', link: '/quick-start-aux' },
+      { text: 'umdu ac', link: '/quick-start-ac' },
       { text: 'Бесплатная виртуальная машина', link: '/free-virtual-machine' },
       { text: 'umdu.ru', link: 'https://umdu.ru' }
     ],
@@ -48,19 +48,19 @@ export default defineConfig({
         ]
       },
       {
-        text: 'umdu aux',
+        text: 'umdu ac',
         items: [
           {
             text: 'Начало работы',
             items: [
-              { text: 'Быстрый старт', link: '/quick-start-aux' },
-              { text: 'Список поддерживаемых кондиционеров', link: '/models-aux' }
+              { text: 'Быстрый старт', link: '/quick-start-ac' },
+              { text: 'Список поддерживаемых кондиционеров', link: '/models-ac' }
             ]
           },
           {
             text: 'Инструкции',
             items: [
-              { text: 'Варианты подключений umdu aux к кондиционеру', link: '/connect-to-air-conditioner' },
+              { text: 'Варианты подключений umdu ac к кондиционеру', link: '/connect-to-air-conditioner' },
 
             ]
           }
