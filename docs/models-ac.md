@@ -7,7 +7,7 @@
 <input id="brand-filter" type="text" placeholder="Поиск бренда..." style="padding:8px 10px; width: 100%; max-width: 420px; border: 1px solid var(--vp-c-divider); border-radius: 6px;"
 oninput="(function(v){const val=(v||'').toLowerCase().trim();document.querySelectorAll('.brand-table tbody tr').forEach(function(tr){var brand=(tr.querySelector('td')?.textContent||'').toLowerCase();tr.style.display=(val===''||brand.includes(val))?'':'none';});})(this.value)" />
 
-## AUX (UART)
+## AUX
 
 <table class="brand-table">
   <thead>
@@ -59,7 +59,7 @@ oninput="(function(v){const val=(v||'').toLowerCase().trim();document.querySelec
   </tbody>
   </table>
 
-## Midea (UART / RS-485 (зависит от модели))
+## Midea
 
 <table class="brand-table">
   <thead>
@@ -85,7 +85,7 @@ oninput="(function(v){const val=(v||'').toLowerCase().trim();document.querySelec
   </tbody>
 </table>
 
-## SmartAir2 (Haier) (UART)
+## SmartAir2 (Haier)
 
 <table class="brand-table">
   <thead>
