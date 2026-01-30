@@ -2,12 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "docs",
-  description: "Документация umdu",
+  title: "umdu docs",
+  description: "Официальная документация umdu: настройка и использование устройств umdu k1 и umdu ac, подключение, инструкции и список поддерживаемых кондиционеров.",
   cleanUrls: true,
   // Изображения можно хранить в public/images и обращаться к ним через /images/имя_файла.расширение
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: false,
     logo: {
       light: '/images/logo.png',
       dark: '/images/logo.png',
@@ -23,9 +24,11 @@ export default defineConfig({
     sidebar: [
       {
         text: 'umdu k1',
+        collapsed: false,
         items: [
           {
             text: 'Начало работы',
+            collapsed: false,
             items: [
               { text: 'Быстрый старт', link: '/quick-start' },
               { text: 'Установка HACS', link: '/hacs-installation' }
@@ -33,6 +36,7 @@ export default defineConfig({
           },
           {
             text: 'HAOS (Home Assistant OS)',
+            collapsed: false,
             items: [
               { text: 'Переход на HAOS', link: '/haos-migration' },
               { text: 'Запуск с внешнего USB диска', link: '/haos-usb-disk' }
@@ -40,6 +44,7 @@ export default defineConfig({
           },
           {
             text: 'HA Supervised',
+            collapsed: false,
             items: [
               { text: 'Установка образа системы', link: '/system-image-installation' },
               { text: 'Запуск с внешнего USB диска', link: '/usb-disk-docs' }
@@ -49,9 +54,11 @@ export default defineConfig({
       },
       {
         text: 'umdu ac',
+        collapsed: false,
         items: [
           {
             text: 'Начало работы',
+            collapsed: false,
             items: [
               { text: 'Быстрый старт', link: '/quick-start-ac' },
               { text: 'Список поддерживаемых кондиционеров', link: '/models-ac' }
@@ -59,6 +66,7 @@ export default defineConfig({
           },
           {
             text: 'Инструкции',
+            collapsed: false,
             items: [
               { text: 'Варианты подключений umdu ac к кондиционеру', link: '/connect-to-air-conditioner' },
 
