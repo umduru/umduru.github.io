@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# VitePress build & cache
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/.vitepress/.temp/
+
+# OS artifacts
+.DS_Store
