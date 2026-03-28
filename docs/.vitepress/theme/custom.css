@@ -118,6 +118,77 @@
   }
 }
 
+/* Страница: Быстрый старт umdu ot */
+.page-quick-start-ot .step-image {
+  width: 300px;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.page-quick-start-ot .step-image-large {
+  width: 380px;
+}
+
+.page-quick-start-ot .step-placeholder {
+  width: 300px;
+  max-width: 100%;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border: 1px dashed var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  text-align: center;
+}
+
+.doc-image-placeholder {
+  width: 320px;
+  max-width: 100%;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin: 16px 0;
+  border: 1px dashed var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  text-align: center;
+}
+
+.doc-compact-image {
+  display: block;
+  width: 420px;
+  max-width: 100%;
+  margin: 16px 0;
+}
+
+.doc-compact-figure {
+  margin: 16px 0;
+}
+
+.doc-image-caption {
+  margin-top: -4px;
+  color: var(--vp-c-text-2);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 640px) {
+  .page-quick-start-ot .flex-container {
+    flex-direction: column;
+  }
+
+  .page-quick-start-ot .image-container,
+  .page-quick-start-ot .content-container {
+    width: 100%;
+  }
+}
+
 /* Страница: Бесплатная виртуальная машина */
 .page-free-vm iframe {
   width: 100%;
@@ -138,6 +209,16 @@
 
 .page-free-vm .referral-button:hover {
   background-color: rgb(124, 210, 247);
+}
+
+.blueprint-import-button {
+  display: inline-block;
+  margin: 12px 0 16px;
+}
+
+.blueprint-import-button img {
+  display: block;
+  max-width: min(100%, 320px);
 }
 
 /* Aside banner */

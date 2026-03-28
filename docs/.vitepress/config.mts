@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "umdu docs",
-  description: "Официальная документация umdu: настройка и использование устройств umdu k1 и umdu ac, подключение, инструкции и список поддерживаемых кондиционеров.",
+  description: "Официальная документация umdu: настройка и использование устройств umdu k1, umdu ac и umdu ot, подключение, инструкции и список поддерживаемых устройств.",
   cleanUrls: true,
   // Изображения можно хранить в public/images и обращаться к ним через /images/имя_файла.расширение
   themeConfig: {
@@ -17,6 +17,7 @@ export default defineConfig({
     nav: [
       { text: 'umdu k1', link: '/quick-start' },
       { text: 'umdu ac', link: '/quick-start-ac' },
+      { text: 'umdu ot', link: '/quick-start-ot' },
       { text: 'Бесплатная виртуальная машина', link: '/free-virtual-machine' },
       { text: 'umdu.ru', link: 'https://umdu.ru' }
     ],
@@ -70,6 +71,29 @@ export default defineConfig({
             items: [
               { text: 'Варианты подключений umdu ac к кондиционеру', link: '/connect-to-air-conditioner' },
 
+            ]
+          }
+        ]
+      },
+      {
+        text: 'umdu ot',
+        collapsed: false,
+        items: [
+          {
+            text: 'Начало работы',
+            collapsed: false,
+            items: [
+              { text: 'Быстрый старт', link: '/quick-start-ot' }
+            ]
+          },
+          {
+            text: 'Инструкции',
+            collapsed: false,
+            items: [
+              { text: 'Подключение внешних датчиков температуры', link: '/umdu-ot-temperature-sensors' },
+              { text: 'Режимы работы реле сухого контакта', link: '/umdu-ot-dry-contact' },
+              { text: 'Байпас-реле и аварийный режим', link: '/umdu-ot-bypass-emergency' },
+              { text: 'Режимы управления отоплением: ПИД (PID) и ПЗА (Equiterm)', link: '/umdu-ot-heating-modes' }
             ]
           }
         ]

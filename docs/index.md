@@ -1,6 +1,6 @@
 ---
 title: "Документация umdu"
-description: "Официальная документация umdu: настройка и использование устройств umdu k1 и umdu ac, подключение, инструкции и список поддерживаемых кондиционеров."
+description: "Официальная документация umdu: настройка и использование устройств umdu k1, umdu ac и umdu ot, подключение, инструкции и список поддерживаемых устройств."
 layout: home
 
 hero:
@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: Быстрый старт umdu ac
       link: /quick-start-ac
+    - theme: brand
+      text: Быстрый старт umdu ot
+      link: /quick-start-ot
     - theme: alt
       text: Все документы
       link: /all-documents
