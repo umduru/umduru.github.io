@@ -8,3 +8,4 @@ docs/.vitepress/.temp/
 
 # OS artifacts
 .DS_Store
+.codex/
