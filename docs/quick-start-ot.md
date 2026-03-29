@@ -74,7 +74,7 @@
 :::
 
 ::: warning Внимание
-Если <a href="http://umduot.local">umduot.local</a> не открывается, можно использовать <a href="http://192.168.4.1/">http://192.168.4.1/</a>
+Если <a href="http://umduot.local">umduot.local</a> не открывается, можно использовать <a href="http://192.168.4.1/">192.168.4.1</a>
 :::
 
 ## Шаг 3 - Подключение к Wi-Fi

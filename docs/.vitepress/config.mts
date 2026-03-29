@@ -25,19 +25,13 @@ export default defineConfig({
     sidebar: [
       {
         text: 'umdu k1',
-        collapsed: false,
+        collapsed: true,
         items: [
-          {
-            text: 'Начало работы',
-            collapsed: false,
-            items: [
-              { text: 'Быстрый старт', link: '/quick-start' },
-              { text: 'Установка HACS', link: '/hacs-installation' }
-            ]
-          },
+          { text: 'Быстрый старт', link: '/quick-start' },
+          { text: 'Установка HACS', link: '/hacs-installation' },
           {
             text: 'HAOS (Home Assistant OS)',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: 'Переход на HAOS', link: '/haos-migration' },
               { text: 'Запуск с внешнего USB диска', link: '/haos-usb-disk' }
@@ -45,7 +39,7 @@ export default defineConfig({
           },
           {
             text: 'HA Supervised',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: 'Установка образа системы', link: '/system-image-installation' },
               { text: 'Запуск с внешнего USB диска', link: '/usb-disk-docs' }
@@ -55,47 +49,22 @@ export default defineConfig({
       },
       {
         text: 'umdu ac',
-        collapsed: false,
+        collapsed: true,
         items: [
-          {
-            text: 'Начало работы',
-            collapsed: false,
-            items: [
-              { text: 'Быстрый старт', link: '/quick-start-ac' },
-              { text: 'Список поддерживаемых кондиционеров', link: '/models-ac' }
-            ]
-          },
-          {
-            text: 'Инструкции',
-            collapsed: false,
-            items: [
-              { text: 'Варианты подключений umdu ac к кондиционеру', link: '/connect-to-air-conditioner' },
-
-            ]
-          }
+          { text: 'Быстрый старт', link: '/quick-start-ac' },
+          { text: 'Список поддерживаемых кондиционеров', link: '/models-ac' },
+          { text: 'Варианты подключений umdu ac к кондиционеру', link: '/connect-to-air-conditioner' }
         ]
       },
       {
         text: 'umdu ot',
-        collapsed: false,
+        collapsed: true,
         items: [
-          {
-            text: 'Начало работы',
-            collapsed: false,
-            items: [
-              { text: 'Быстрый старт', link: '/quick-start-ot' }
-            ]
-          },
-          {
-            text: 'Инструкции',
-            collapsed: false,
-            items: [
-              { text: 'Подключение внешних датчиков температуры', link: '/umdu-ot-temperature-sensors' },
-              { text: 'Режимы работы реле сухого контакта', link: '/umdu-ot-dry-contact' },
-              { text: 'Байпас-реле и аварийный режим', link: '/umdu-ot-bypass-emergency' },
-              { text: 'Режимы управления отоплением: ПИД (PID) и ПЗА (Equiterm)', link: '/umdu-ot-heating-modes' }
-            ]
-          }
+          { text: 'Быстрый старт', link: '/quick-start-ot' },
+          { text: 'Подключение внешних датчиков температуры', link: '/umdu-ot-temperature-sensors' },
+          { text: 'Режимы работы реле сухого контакта', link: '/umdu-ot-dry-contact' },
+          { text: 'Байпас-реле и аварийный режим', link: '/umdu-ot-bypass-emergency' },
+          { text: 'Режимы управления отоплением: ПИД (PID) и ПЗА (Equiterm)', link: '/umdu-ot-heating-modes' }
         ]
       }
     ],
