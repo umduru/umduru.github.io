@@ -44,7 +44,7 @@
 2. Подключите umdu k1 к питанию
 3. Зайдите на веб интерфейс устройства и дождитесь загрузки системы 
 
-<img class="image" src="/images/haos-loading.png" alt="Загрузка HAOS">
+<DocImage class="image" src="/images/haos-loading.png" webp-src="/images/haos-loading.webp" alt="Загрузка HAOS" />
 
 ::: tip Примечание
 Доступ к веб-интерфейсу Home Assistant по адресу [umdu.local:8123](http://umdu.local:8123)
@@ -57,15 +57,15 @@
 
 4. Дождитесь полной установки и нажмите **Загрузка резервной копии**
 
-<img class="image" src="/images/haos-restore.png" alt="Восстановление из резервной копии">
+<DocImage class="image" src="/images/haos-restore.png" webp-src="/images/haos-restore.webp" alt="Восстановление из резервной копии" />
 
 5. **Выберите файл резервной копии**,  дождитесь загрузки и выберите что нужно восстановить
 
-<img class="image" src="/images/haos-backup-select.png" alt="Выбор резервной копии">
+<DocImage class="image" src="/images/haos-backup-select.png" webp-src="/images/haos-backup-select.webp" alt="Выбор резервной копии" />
 
 6. Дождитесь восстановления из резервной копии
 
-<img class="image" src="/images/haos-backup-restore.png" alt="Восстановление резервной копии">
+<DocImage class="image" src="/images/haos-backup-restore.png" webp-src="/images/haos-backup-restore.webp" alt="Восстановление резервной копии" />
 
 
 ::: warning Внимание
@@ -75,7 +75,7 @@
 
 ## Система готова ко входу
 
-<img class="image" src="/images/haos-ready.png" alt="Система готова">
+<DocImage class="image" src="/images/haos-ready.png" webp-src="/images/haos-ready.webp" alt="Система готова" />
 
 ## Если дополнения, использующие MQTT, не работают
 
@@ -87,7 +87,7 @@
 4. Заново установите «Mosquitto broker» из Магазина дополнений.
 5. Запустите дополнение.
 
-<img class="image" src="/images/mosquitto-reinstall.png" alt="Переустановка Mosquitto broker">
+<DocImage class="image" src="/images/mosquitto-reinstall.png" webp-src="/images/mosquitto-reinstall.webp" alt="Переустановка Mosquitto broker" />
 
 ## Система готова к использованию
 

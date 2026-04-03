@@ -6,7 +6,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="/images/set.gif" alt="Необходимое оборудование">
+    <DocVideo class="step-image" webm-src="/images/set.webm" mp4-src="/images/set.mp4" width="300" height="200" aria-label="Необходимое оборудование" />
   </div>
   <div class="content-container">
     <ul>
@@ -23,7 +23,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="/images/step1.gif" alt="Шаг 1">
+    <DocVideo class="step-image" webm-src="/images/step1.webm" mp4-src="/images/step1.mp4" width="300" height="200" aria-label="Шаг 1" />
   </div>
   <div class="content-container">
     <ul>
@@ -37,7 +37,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="/images/step2.gif" alt="Шаг 2">
+    <DocVideo class="step-image" webm-src="/images/step2.webm" mp4-src="/images/step2.mp4" width="300" height="200" aria-label="Шаг 2" />
   </div>
   <div class="content-container">
     <ul>

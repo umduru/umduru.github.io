@@ -38,7 +38,7 @@
 ### Подключение к модулю
 
 <figure class="doc-compact-figure">
-  <img src="/images/umdu-ot-sensor-connection.jpg" alt="Подключение датчика DS18B20 к umdu ot" class="doc-compact-image">
+  <DocImage src="/images/umdu-ot-sensor-connection.jpg" webp-src="/images/umdu-ot-sensor-connection.webp" alt="Подключение датчика DS18B20 к umdu ot" class="doc-compact-image" />
   <figcaption class="doc-image-caption">На изображении подключен датчик <code>Внутренняя температура</code>.</figcaption>
 </figure>
 

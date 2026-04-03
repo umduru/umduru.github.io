@@ -7,21 +7,21 @@
 2. Добавьте репозиторий HACS одним из способов:
    - Быстро: используйте [эту ссылку](https://my.home-assistant.io/redirect/supervisor_addon/?addon=cb646a50_get&repository_url=https%3A%2F%2Fgithub.com%2Fhacs%2Faddons).
 
-<img class="image" src="/images/hacs_url.png" alt="Hacs ссылка">
+<DocImage class="image" src="/images/hacs_url.png" webp-src="/images/hacs_url.webp" alt="Hacs ссылка" />
 
    - **Или вручную:**
      1. Перейдите в **Настройки > Дополнения > Магазин дополнений**.
      2. Нажмите на три точки в правом верхнем углу и выберите **Репозитории**.     
      3. Вставьте ссылку на репозиторий: `https://github.com/hacs/addons` и нажмите **Добавить**.
 
-<img class="image" src="/images/hacs_github_repo.png" alt="Hacs ссылка">
+<DocImage class="image" src="/images/hacs_github_repo.png" webp-src="/images/hacs_github_repo.webp" alt="Hacs ссылка" />
 
 
 
 3. В появившемся окне подтвердите добавление репозитория (если использовали быстрый способ).
 4. Найдите HACS в списке дополнений и установите его.
 
-<img class="image" src="/images/hacs_get.png" alt="Hacs установка">
+<DocImage class="image" src="/images/hacs_get.png" webp-src="/images/hacs_get.webp" alt="Hacs установка" />
 
 5. Запустите установленное дополнение.
 6. Перейдите к логам дополнения и следуйте инструкциям.
@@ -43,7 +43,7 @@
 3. Нажмите **+ Добавить интеграцию**.
 4. Введите "HACS" в поиске и выберите интеграцию HACS.
 
-<img class="image" src="/images/hacs_search.png" alt="Hacs поиск">
+<DocImage class="image" src="/images/hacs_search.png" webp-src="/images/hacs_search.webp" alt="Hacs поиск" />
 
 5. Примите условия и нажмите **Отправить**.
 6. Начнётся процесс аутентификации через GitHub:
@@ -52,14 +52,14 @@
    - Вставьте код устройства и подтвердите авторизацию.
    - После подтверждения закройте вкладку и вернитесь в Home Assistant.
 
-<img class="image" src="/images/hacs_github.png" alt="Hacs github">
+<DocImage class="image" src="/images/hacs_github.png" webp-src="/images/hacs_github.webp" alt="Hacs github" />
 
 7. Назначьте HACS область (если требуется) и завершите настройку.
 
 ## Готово!
 Поздравляем! HACS установлен и готов к использованию. Теперь вы можете устанавливать пользовательские интеграции, темы и многое другое через HACS.
 
-<img class="image" src="/images/hacs.png" alt="Hacs">
+<DocImage class="image" src="/images/hacs.png" webp-src="/images/hacs.webp" alt="Hacs" />
 
 
 ## Дополнительно

@@ -2,7 +2,7 @@
 
 Реле сухого контакта в umdu ot — это дополнительный выход для управления внешней цепью. Оно удобно, когда нужно не только работать по `OpenTherm`, но и отдельно переключать насос, каскадный вход или другую внешнюю автоматику.
 
-<img src="/images/umdu-ot-dry-contact.jpg" alt="Контакты реле сухого контакта umdu ot" class="doc-compact-image">
+<DocImage src="/images/umdu-ot-dry-contact.jpg" webp-src="/images/umdu-ot-dry-contact.webp" alt="Контакты реле сухого контакта umdu ot" class="doc-compact-image" />
 
 На реле есть три контакта:
 

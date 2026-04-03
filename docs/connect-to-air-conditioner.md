@@ -8,7 +8,7 @@
 - **RX**: вход UART
 - **TX**: выход UART
 
-<img class="image" src="/images/pin.jpg" alt="Распиновка контактов">
+<DocImage class="image" src="/images/pin.jpg" webp-src="/images/pin.webp" alt="Распиновка контактов" />
 
 
 ::: tip Примечание
@@ -21,7 +21,7 @@
 
 ### 4-проводное подключение (псевдо-USB)
 
-<img class="image" src="/images/usb.jpg" alt="USB подключение">
+<DocImage class="image" src="/images/usb.jpg" webp-src="/images/usb.webp" alt="USB подключение" />
 
 Модуль специально разработан для подключения через USB-разъем кондиционера. От настоящего USB здесь только коннектор. По пинам в этом разъеме UART и питание.
 
@@ -38,7 +38,7 @@
 
 Для 5-проводного подключения используется коннектор JST SM.
 
-<img class="image" src="/images/jst-sm-5pin.jpg" alt="JST SM">
+<DocImage class="image" src="/images/jst-sm-5pin.jpg" webp-src="/images/jst-sm-5pin.webp" alt="JST SM" />
 
 #### Распиновка
 - **Красный**: +12В..+14В постоянного тока.

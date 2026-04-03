@@ -40,6 +40,7 @@
 .page-quick-start .step-image {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 .page-quick-start .ha-image-container {

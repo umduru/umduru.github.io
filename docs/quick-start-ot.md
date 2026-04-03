@@ -20,7 +20,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img src="/images/umdu-ot-device.jpg" alt="umdu ot" class="step-image">
+    <DocImage src="/images/umdu-ot-device.jpg" webp-src="/images/umdu-ot-device.webp" alt="umdu ot" class="step-image" />
   </div>
   <div class="content-container">
     <ul>
@@ -39,7 +39,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img src="/images/umdu-ot-boiler-connection.jpg" alt="Подключение umdu ot к котлу" class="step-image">
+    <DocImage src="/images/umdu-ot-boiler-connection.jpg" webp-src="/images/umdu-ot-boiler-connection.webp" alt="Подключение umdu ot к котлу" class="step-image" />
   </div>
   <div class="content-container">
     <ul>
@@ -58,7 +58,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img src="/images/umdu-ot-power-first-start.jpg" alt="Питание umdu ot и первый запуск" class="step-image">
+    <DocImage src="/images/umdu-ot-power-first-start.jpg" webp-src="/images/umdu-ot-power-first-start.webp" alt="Питание umdu ot и первый запуск" class="step-image" />
   </div>
   <div class="content-container">
     <ul>
@@ -82,7 +82,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image step-image-large" src="/images/umdu-ot-wifi-settings.png" alt="Настройки подключения Wi-Fi">
+    <DocImage class="step-image step-image-large" src="/images/umdu-ot-wifi-settings.png" webp-src="/images/umdu-ot-wifi-settings.webp" alt="Настройки подключения Wi-Fi" />
   </div>
   <div class="content-container">
     <ul>
@@ -102,7 +102,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image step-image-large" src="/images/umdu-ot-mqtt-settings.png" alt="Настройки MQTT">
+    <DocImage class="step-image step-image-large" src="/images/umdu-ot-mqtt-settings.png" webp-src="/images/umdu-ot-mqtt-settings.webp" alt="Настройки MQTT" />
   </div>
   <div class="content-container">
     <ul>

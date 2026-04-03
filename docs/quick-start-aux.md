@@ -6,7 +6,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="umduaux-image" src="/images/umduaux.jpeg" alt="Необходимое оборудование">
+    <DocImage class="umduaux-image" src="/images/umduaux.jpeg" webp-src="/images/umduaux.webp" alt="Необходимое оборудование" />
   </div>
   <div class="content-container">
     <ul>
@@ -22,7 +22,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="/images/aux-switch.png" alt="Переключатель режима">
+    <DocImage class="step-image" src="/images/aux-switch.png" webp-src="/images/aux-switch.webp" alt="Переключатель режима" />
   </div>
   <div class="content-container">
     <ul>
@@ -37,7 +37,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="/images/conditioner.jpg" alt="Шаг 1">
+    <DocImage class="step-image" src="/images/conditioner.jpg" webp-src="/images/conditioner.webp" alt="Шаг 1" />
   </div>
   <div class="content-container">
     <ul>
@@ -66,7 +66,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="step-image" src="/images/wifi.png" alt="Шаг 2">
+    <DocImage class="step-image" src="/images/wifi.png" webp-src="/images/wifi.webp" alt="Шаг 2" />
   </div>
   <div class="content-container">
     <ul>
@@ -93,7 +93,7 @@
 
 <div class="flex-container">
   <div class="image-container">
-    <img class="ha-image" src="/images/esp.png" alt="Шаг 3">
+    <DocImage class="ha-image" src="/images/esp.png" webp-src="/images/esp.webp" alt="Шаг 3" />
   </div>
   <div class="content-container">
     <ul>

@@ -37,11 +37,11 @@
 - Не перезагружайте систему
 :::
 
-<img class="image" src="/images/umdu-spi-uboot-flasher.png" alt="UMDU SPI U-Boot Flasher">
+<DocImage class="image" src="/images/umdu-spi-uboot-flasher.png" webp-src="/images/umdu-spi-uboot-flasher.webp" alt="UMDU SPI U-Boot Flasher" />
 
 4. Дождитесь завершения процесса прошивки. По завершении появится сообщение: **«Перезапись U‑Boot завершена успешно!»**
 
-<img class="image" src="/images/umdu-spi-uboot-flasher-success.png" alt="Перезапись U-Boot завершена успешно">
+<DocImage class="image" src="/images/umdu-spi-uboot-flasher-success.png" webp-src="/images/umdu-spi-uboot-flasher-success.webp" alt="Перезапись U-Boot завершена успешно" />
 
 ## Запись HAOS на USB‑диск
 
@@ -56,7 +56,7 @@
 1. Подключите подготовленный USB‑диск к umdu k1. Если в устройстве была microSD, извлеките её.
 2. Подайте питание и дождитесь запуска установщика Home Assistant OS.
 
-<img class="image" src="/images/haos-loading.png" alt="Загрузка HAOS">
+<DocImage class="image" src="/images/haos-loading.png" webp-src="/images/haos-loading.webp" alt="Загрузка HAOS" />
 
 ::: tip Примечание
 Доступ к веб‑интерфейсу: [umdu.local:8123](http://umdu.local:8123)
@@ -67,15 +67,15 @@
 
 3. В интерфейсе HAOS нажмите **Загрузка резервной копии**.
 
-<img class="image" src="/images/haos-restore.png" alt="Восстановление из резервной копии">
+<DocImage class="image" src="/images/haos-restore.png" webp-src="/images/haos-restore.webp" alt="Восстановление из резервной копии" />
 
 4. Выберите файл резервной копии и укажите, что восстанавливать.
 
-<img class="image" src="/images/haos-backup-select.png" alt="Выбор резервной копии">
+<DocImage class="image" src="/images/haos-backup-select.png" webp-src="/images/haos-backup-select.webp" alt="Выбор резервной копии" />
 
 5. Дождитесь завершения восстановления.
 
-<img class="image" src="/images/haos-backup-restore.png" alt="Восстановление резервной копии">
+<DocImage class="image" src="/images/haos-backup-restore.png" webp-src="/images/haos-backup-restore.webp" alt="Восстановление резервной копии" />
 
 ::: warning Внимание
 Во время восстановления не перезагружайте устройство и не отключайте питание.
@@ -85,4 +85,4 @@
 
 После завершения восстановления войдите в Home Assistant.
 
-<img class="image" src="/images/haos-ready.png" alt="Система готова">
+<DocImage class="image" src="/images/haos-ready.png" webp-src="/images/haos-ready.webp" alt="Система готова" />
