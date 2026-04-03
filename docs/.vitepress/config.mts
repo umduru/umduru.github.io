@@ -61,6 +61,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Быстрый старт', link: '/quick-start-ot' },
+          { text: 'Список поддерживаемых котлов', link: '/models-ot' },
           { text: 'Подключение внешних датчиков температуры', link: '/umdu-ot-temperature-sensors' },
           { text: 'Режимы работы реле сухого контакта', link: '/umdu-ot-dry-contact' },
           { text: 'Байпас-реле и аварийный режим', link: '/umdu-ot-bypass-emergency' },

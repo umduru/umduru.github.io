@@ -25,6 +25,7 @@
   <div class="content-container">
     <ul>
       <li>umdu ot</li>
+      <li>Котел с поддержкой <code>OpenTherm</code> (<a href="/models-ot">список поддерживаемых котлов</a>)</li>
       <li>Источник питания <code>5V</code> с кабелем <code>USB-C</code></li>
       <li>Документация именно вашего котла</li>
       <li>Смартфон, планшет или компьютер с браузером</li>
