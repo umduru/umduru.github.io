@@ -8,7 +8,7 @@
 - Любой накопитель, подключаемый по USB (SSD/HDD/флешка)
 - Переходник/корпус USB–SATA для SSD/HDD (при необходимости)
  - Компьютер для записи образа
- - Образ HAOS – [скачать](https://github.com/umduru/umdu-haos-updater/releases/download/16.2/haos_umdu-k1-16.2.img.xz)
+ - Образ HAOS – [скачать](https://github.com/umduru/umdu-haos-updater/releases/download/17.0/haos_umdu-k1-17.0.img.xz)
  - ПО balenaEtcher – [скачать](https://www.balena.io/etcher)
 - Резервная копия Home Assistant и ключ шифрования (если включено)
 

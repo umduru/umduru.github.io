@@ -12,7 +12,7 @@
 - Сервер umdu k1
 - Карта памяти microSD
 - Адаптер карты памяти
-- Образ HAOS – [скачать](https://github.com/umduru/umdu-haos-updater/releases/download/16.2/haos_umdu-k1-16.2.img.xz)
+- Образ HAOS – [скачать](https://github.com/umduru/umdu-haos-updater/releases/download/17.0/haos_umdu-k1-17.0.img.xz)
 - ПО balenaEtcher для создания загрузочного диска – [скачать](https://www.balena.io/etcher)
 - Резервная копия Home Assistant и ключ шифрования (если включено)
 
